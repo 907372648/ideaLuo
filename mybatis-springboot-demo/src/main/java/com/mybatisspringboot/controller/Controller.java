@@ -20,6 +20,7 @@ public class Controller {
     @RequestMapping("/a")
     @ResponseBody
     public String a(){
+        System.out.println();
         return "hello";
     }
 }
