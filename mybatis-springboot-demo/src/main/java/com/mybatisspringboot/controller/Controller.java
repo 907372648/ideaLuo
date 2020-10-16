@@ -21,6 +21,7 @@ public class Controller {
     @ResponseBody
     public String a(){
         System.out.println();
+        System.out.println("hello");
         return "hello";
     }
 }
